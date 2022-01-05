@@ -2,7 +2,7 @@ export default function Skills() {
     return (
         <div className="px-4 md:px-0 mx-auto md:w-[900px] space-y-2 text-white">
             <header className="text-white text-lg font-bold">
-                🔧 Skills
+                🔧 &nbsp;Skills
             </header>
             
             <div className="border-[1px] border-gray-700 p-4 space-y-2 rounded-xl">

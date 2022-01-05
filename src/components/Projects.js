@@ -2,7 +2,7 @@ function Projects() {
     return (
         <div className="px-4 md:px-0 mx-auto md:w-[900px] space-y-2 text-white">
             <header className="text-white text-lg font-bold">
-                🎯 Projects
+                🎯 &nbsp;Projects
             </header>
 
             <div className="border-[1px] border-gray-700 p-4 space-y-4 rounded-xl">
@@ -47,7 +47,7 @@ function Projects() {
                                 Developed an mobile application using React Native, Redux, Tailwind CSS
                             </li>
                             <li>
-                                Utilized Google Maps Api to achieve features including location autocompletion, drection drawing, distance calculation, price calcuation, etc
+                                Utilized Google Maps Api to achieve features including location autocompletion, direction drawing, distance calculation, price calcuation, etc
                             </li>
                         </ul>
                     </div>
