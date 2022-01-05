@@ -1,25 +1,26 @@
 function Experience() {
     return (
-        <div className="px-4 md:px-20 text-white space-y-2">
+        <div className="px-4 md:px-0 mx-auto md:w-[900px] space-y-2 text-white">
             <header className="text-white text-lg font-bold">
                 💻 Work Experience
             </header>
 
-            <section className="bg-gray-800 p-4 shadow-sm space-y-4 rounded-sm">
+            <section className="border-[1px] border-gray-700 p-4 space-y-4 rounded-xl">
                 <div className="space-y-1">
-                    <div className="flex justify-between">
-                        <header className="font-semibold">
+                    <div className="grid grid-cols-2">
+                        <header className="flex justify-start font-semibold">
                             Industrial Design Intern
                         </header>
-                        <p className="text-sm ">
+                        <p className="flex justify-end text-sm ">
                             Jul 2019 - Aug 2019
                         </p>
                     </div>
-                    <div className="flex items-center justify-between">
-                        <p>
+
+                    <div className="grid grid-cols-2 items-center justify-between">
+                        <p className="flex justify-start">
                             KCLKA Machinery
                         </p>
-                        <p className="text-sm ">
+                        <p className="flex justify-end text-sm ">
                             Jinjiang, Fujian, China
                         </p>
                     </div>
@@ -37,22 +38,22 @@ function Experience() {
                     </ul>
                 </div>
 
-                <hr className="h-[1px] bg-gray-700 border-none"/>
+                <hr className="h-[1px] bg-gray-800 border-none" />
 
                 <div className="space-y-1">
-                    <div className="flex justify-between">
-                        <header className="font-semibold">
+                    <div className="grid grid-cols-2 justify-between">
+                        <header className="flex justify-start font-semibold">
                             Industrial Design Intern
                         </header>
-                        <p className="text-sm ">
+                        <p className="flex justify-end text-sm ">
                             Jun 2019 - July 2019
                         </p>
                     </div>
-                    <div className="flex items-center justify-between">
-                        <p>
+                    <div className="grid grid-cols-2 items-center justify-between">
+                        <p className="flex justify-start">
                             361 Degrees International Ltd
                         </p>
-                        <p className="text-sm ">
+                        <p className=" flex justify-end text-sm ">
                             Jinjiang, Fujian, China
                         </p>
                     </div>
