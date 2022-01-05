@@ -20,7 +20,7 @@ function App() {
 		<div>
 			<Menu toggle={toggle} setToggle={toggleHandler} />
 			<div
-				className={`pt-[70px] space-y-10 pb-[40px] bg-gray-900 w-full min-h-screen`}
+				className={`pt-[50px] md:pt-[70px] space-y-10 pb-[40px] bg-gray-900 w-full min-h-screen`}
 			>
 				<Header toggle={toggle} setToggle={toggleHandler} />
 					<Skills />

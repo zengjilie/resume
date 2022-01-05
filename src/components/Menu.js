@@ -7,7 +7,8 @@ function Menu({toggle,setToggle}) {
                 className={
                     `${toggle? "visible":"invisible"} 
                     fixed 
-                    top-[73px] 
+                    top-[65px] 
+                    md:top-[73px]
                     flex 
                     flex-col 
                     p-2
@@ -23,7 +24,6 @@ function Menu({toggle,setToggle}) {
                     border-r-[1px] 
                     border-b-[1px]
                     border-gray-700 
-                    rounded-br-xl  
                     bg-gray-900
                     w-full
                     md:w-[250px]`}

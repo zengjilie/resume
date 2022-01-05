@@ -5,20 +5,21 @@ function Header({ toggle, setToggle }) {
     return (
         <div className='border-b-[1px] fixed top-0 backdrop-blur-lg border-gray-700 z-30 bg-gray-700/10 pb-4 w-full'>
             <div className='mx-auto px-4 md:px-0 md:w-[900px] z-50 static'>
-                <div className='flex items-center justify-between text-xl font-bold pt-4 text-white' >
+                <div className='grid grid-cols-4 text-xl font-bold pt-4 text-white' >
 
                     <div
                         onClick={setToggle}
-                        className='w-25 pointer-cursor'
+                        className='pointer-cursor'
+                        
                     >
                         <MenuAlt2Icon
-                            className='p-2 cursor-pointer bg-gray-800 rounded-sm w-10'
+                            className='hover:bg-gray-700 p-1 md:p-2 cursor-pointer bg-gray-800 rounded-sm w-8 md:w-10'
                         />
                     </div>
 
                     <div
                         onClick={() => scroll.scrollToTop()}
-                        className='cursor-pointer min-w-[160px] flex justify-center '>
+                        className='cursor-pointer col-span-2 flex items-center justify-center '>
                         <img
                             className="w-6 md:w-8 object-contain"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Texas_Longhorns_logo.svg/664px-Texas_Longhorns_logo.svg.png"
@@ -30,7 +31,7 @@ function Header({ toggle, setToggle }) {
                         </p>
                     </div>
 
-                    <a href="https://github.com/zengjilie" className='flex justify-end w-25 cursor-pointer' >
+                    <a href="https://github.com/zengjilie" className='hover:text-white text-gray-300 flex items-center justify-end w-25 cursor-pointer' >
                         <AiFillGithub className='h-6 w-6 ' />
                         <p  className='hidden  md:inline pl-2 font-medium'>
                             Github
