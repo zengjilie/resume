@@ -6,6 +6,8 @@ import Menu from "./components/Menu";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { useState } from 'react';
+import Awards from "./components/Awards";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
 					<Education />
 					<Experience />
 					<Projects />
+					<Awards/>
+					<Contact/>
 					<Footer />
 			</div>
 		</div>

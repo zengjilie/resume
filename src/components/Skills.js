@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div className="px-4 md:px-0 mx-auto md:w-[900px] space-y-2 text-white">
+        <div id = "skills" className="px-4 md:px-0 mx-auto md:w-[900px] space-y-2 text-white">
             <header className="text-white text-lg font-bold">
                 🔧 &nbsp;Skills
             </header>
@@ -16,7 +16,7 @@ export default function Skills() {
                     <span className="font-semibold">Creative Skills</span> <span className="text-gray-400">Figma, InVision, Adobe Creative Suite, Adobe XD, Rhino, Keyshot, Processing</span> 
                 </p>
                 <p>
-                    <span className="font-semibold">Research Methods</span> <span className="text-gray-400">Storyboarding, Wireframing, Prototyping, Experience mapping, User Spectrum, Empathy mapping, SWOT, Affinity Mapping, User Jouney map</span> 
+                    <span className="font-semibold">Research Methods</span> <span className="text-gray-400">Storyboarding, Wireframing, Prototyping, Experience mapping, User Spectrum, Empathy mapping, SWOT, Affinity mapping, User Journey map</span> 
                 </p>
             </div>
         </div >

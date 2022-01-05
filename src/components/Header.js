@@ -1,6 +1,6 @@
-import { MenuAlt2Icon } from '@heroicons/react/outline'
-import { AiFillGithub } from 'react-icons/ai'
-
+import { MenuAlt2Icon } from '@heroicons/react/outline';
+import { AiFillGithub } from 'react-icons/ai';
+import {animateScroll as scroll} from 'react-scroll';
 function Header({toggle,setToggle}) {
     return (
         <div className='border-b-[1px] fixed top-0 backdrop-blur-lg border-gray-700 z-30 bg-gray-700/10 pb-4 w-full'>
@@ -16,7 +16,10 @@ function Header({toggle,setToggle}) {
                         />
                     </div>
 
-                    <div className='min-w-[160px] flex justify-center '>
+                    <div 
+                    
+                    onClick = {()=>scroll.scrollToTop()}
+                    className='cursor-pointer min-w-[160px] flex justify-center '>
                         <img
                             className="w-6 md:w-8 object-contain"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Texas_Longhorns_logo.svg/664px-Texas_Longhorns_logo.svg.png"

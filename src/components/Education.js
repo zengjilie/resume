@@ -1,7 +1,7 @@
 export default function Education() {
   return (
 
-    <div className="px-4 md:px-0 mx-auto  md:w-[900px] space-y-2 text-white">
+    <div id='education' className="px-4 md:px-0 mx-auto  md:w-[900px] space-y-2 text-white">
       <header className="text-white text-lg font-bold">
         📕 &nbsp;Education
       </header>
@@ -16,7 +16,7 @@ export default function Education() {
             </p>
 
             <p className="text-sm text-gray-400">
-              Master of Science in Major in Information Studies | GPA: 3.66/4.0
+              Master of Science in Information Studies | GPA: 3.66/4.0
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function Education() {
           <div className="flex flex-col space-y-2">
 
             <p className="font-semibold">
-              Stanford Online Algorithm Specialization (Coursera)
+              Stanford Online Algorithms Specialization (Coursera)
             </p>
 
             <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/5MFCC8LK4UC2" className="text-sm text-gray-400">

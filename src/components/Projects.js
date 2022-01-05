@@ -1,6 +1,6 @@
 function Projects() {
     return (
-        <div className="px-4 md:px-0 mx-auto md:w-[900px] space-y-2 text-white">
+        <div id='projects' className="px-4 md:px-0 mx-auto md:w-[900px] space-y-2 text-white">
             <header className="text-white text-lg font-bold">
                 🎯 &nbsp;Projects
             </header>
@@ -44,7 +44,7 @@ function Projects() {
                     <div className="pl-5 flex justify-between">
                         <ul className="text-gray-400 text-sm list-disc">
                             <li >
-                                Developed an mobile application using React Native, Redux, Tailwind CSS
+                                Developed a mobile application using React Native, Redux, Tailwind CSS
                             </li>
                             <li>
                                 Utilized Google Maps Api to achieve features including location autocompletion, direction drawing, distance calculation, price calcuation, etc

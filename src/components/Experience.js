@@ -1,6 +1,6 @@
 function Experience() {
     return (
-        <div className="px-4 md:px-0 mx-auto  md:w-[900px] space-y-2 text-white">
+        <div id='experience' className="px-4 md:px-0 mx-auto  md:w-[900px] space-y-2 text-white">
             <header className="text-white text-lg font-bold">
                 💻 &nbsp;Work Experience
             </header>
