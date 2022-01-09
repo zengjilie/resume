@@ -16,7 +16,7 @@ export default function Education() {
             </p>
 
             <p className="text-sm text-gray-400">
-              Master of Science in Information Studies | GPA: 3.66/4.0
+              Master of Science in Information Studies | GPA: 3.67/4.0
             </p>
           </div>
 

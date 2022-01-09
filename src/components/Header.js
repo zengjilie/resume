@@ -32,7 +32,7 @@ function Header({ toggle, setToggle }) {
                     </div>
 
                     <a href="https://github.com/zengjilie" className='hover:text-white text-gray-300 flex items-center justify-end w-25 cursor-pointer' >
-                        <AiFillGithub className='h-6 w-6 ' />
+                        <AiFillGithub className='h-6 w-6'/>
                         <p  className='hidden  md:inline pl-2 font-medium'>
                             Github
                         </p>

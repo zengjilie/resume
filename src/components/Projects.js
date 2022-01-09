@@ -18,7 +18,7 @@ function Projects() {
                     <div className="pl-5 flex justify-between">
                         <ul className="text-gray-400 text-sm list-disc">
                             <li >
-                                Developed a web application using Next.js, React.js, Tailwind CSS, NextAuth.js
+                                Developed a web application using Next.js, React.js, Tailwind CSS, NextAuth.js, Recoil.js
                             </li>
                             <li>
                                 Utilized NextAuth.js to achieve spotify user authentication
